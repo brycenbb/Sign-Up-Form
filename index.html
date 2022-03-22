@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="functions.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="left">
         <img src="image1.jpg" class="left_img">
         <div class="logo"> <img src="odin-lined.png" class="overlay_img"><p>ODIN</p></div>
+        <p>Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> 
+            on <a href="https://unsplash.com/">Unsplash</a>
+        </p>
     </div>
     <div class="container">
         <div class="top">
@@ -47,12 +51,16 @@
                 </div>
                 <div class=row>
                     <div class="combo">
-                        <label for="password"> Password</label>
-                        <input type="password" name="password" id="password">
+                        <div class="pw_box">
+                            <label for="password"> Password</label>
+                            <input type="password" name="password" id="password" onchange="compare()">
+                            <div class="no_match"></div>
+                        </div>
+                       
                     </div>
                     <div class="combo">
                         <label for="confirm_password"> Confirm Password</label>
-                        <input type="password" name="confirm_password" id="confirm_password">
+                        <input type="password" name="confirm_password" id="confirm_password" onchange="compare()">
                     </div>
                         
                 </div>
