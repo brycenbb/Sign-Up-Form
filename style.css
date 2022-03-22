@@ -161,7 +161,7 @@ form div {
 }
 p {
     margin-right: 13rem;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
 }
 
 .logo > p {
@@ -170,7 +170,7 @@ p {
     z-index: 9;
     color: white;
     font-family: norse;
-    font-size: 15vh;
+    font-size: 10vh;
 }
 
 .left > p {
