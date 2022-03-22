@@ -40,7 +40,23 @@ button {
     overflow: hidden;
 }
 
-img {
+.left_img {
+    width: 100%;
+    height: 100%;
+    position:relative;
+}
+
+input:invalid {
+    border-color: red;
+}
+.logo {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: auto;
+    height: 5rem;
+}
+.overlay_img {
     width: 100%;
     height: 100%;
 }
