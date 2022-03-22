@@ -7,10 +7,10 @@ body{
     padding: 0;
     width: 100vw;
     height: 100vh;
-    font-size: 1rem;
     font-family:Arial, Helvetica, sans-serif;
     display: flex;
 }
+
 *{
     box-sizing: border-box;
 }
@@ -38,7 +38,7 @@ button {
 }
 
 .container > * {
-    padding-left: 1.25rem;
+    padding-left: 3rem;
 }
 
 .left {
@@ -53,6 +53,13 @@ button {
     position:relative;
 }
 
+input {
+    font-size: 1.2rem;
+    height: 2rem;
+    width: 15rem;
+    /* width: 5rem; */
+}
+
 
 input:focus {
     outline:none;
@@ -61,7 +68,6 @@ input:focus {
     /* outline-style: solid; */
     /* outline-color: red; */
     box-shadow: 2px 2px 2px grey;
-
 }
 
 input:invalid {
@@ -85,7 +91,7 @@ input:invalid {
     top: 12rem;
     left: 0;
     width: 100%;
-    height: 7rem;
+    height: 12rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,13 +108,13 @@ input:invalid {
     gap: 0;
     text-transform: uppercase;
     font-family:serif;
-    font-size: 0.625rem;
+    font-size: 0.8rem;
 }
 
 form div {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 100px;
 }
 
 .row {
@@ -120,7 +126,7 @@ form div {
     flex: 1;
     box-shadow: 0 2px 4px lightgrey;
     padding-top: 0.625rem;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
 }
 
 .top, .bot {
@@ -128,7 +134,11 @@ form div {
 }
 
 .bot {
-    margin-top: 1.25rem;
+    margin-top: 2.5rem;
+}
+
+.bot > p {
+    margin-top: 3rem;
 }
 
 .top {
@@ -144,12 +154,14 @@ form div {
 }
 
 .no_match {
+    height: 0.8rem;
     margin-top: 5px;
     color: red;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 }
 p {
-    padding-right: 5rem;
+    margin-right: 13rem;
+    font-size: 1.7rem;
 }
 
 .logo > p {
@@ -158,7 +170,7 @@ p {
     z-index: 9;
     color: white;
     font-family: norse;
-    font-size: 8.5vh;
+    font-size: 15vh;
 }
 
 .left > p {
